@@ -1,0 +1,36 @@
+---
+- test: Simple passing case
+  foreach:
+    - PY_VERSION: python2
+  steps:
+    -   in: echo "Hello guys {PY_VERSION}"
+        out: |-
+          Hello guys {PY_VERSION}
+- test: Exit code failure (bad-path)
+  steps:
+    -   in: Hello world
+        err: |-
+          bash: line 1: Hello: command not found
+        exit: 127
+- test: Test help (good-path)
+  steps:
+    -   in: testshrun help
+        out: |-
+          You will receive no help with testshrun
+- test: Test run (good-path)
+  steps:
+    -   in: testshrun run
+        out: |-
+          Running sucks
+- test: Test no command (bad-path)
+  steps:
+    -   in: testshrun
+        err: |-
+          Please provide a command to testshrun
+        exit: 1
+- test: Test unknown command (bad-path)
+  steps:
+    -   in: testshrun madeup
+        err: |-
+          madeup is not a recognized testshrun command
+        exit: 1
