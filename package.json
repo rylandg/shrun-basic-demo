@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "shrun build testshrun",
-    "spec": "shrun --volume './LICENSE:/home/dockeruser/' --testMatch 'specs' --dockerImage 'testshrun:latest'"
+    "spec": "shrun --volume $(pwd)/LICENSE:/home/dockeruser/LICENSE --testMatch 'specs' --dockerImage 'testshrun:latest'"
   },
   "keywords": [],
   "author": "",
