@@ -61,7 +61,7 @@ sudo -E npm run spec
 
 3. A `specs/demo.yml` spec test file which showcases the basic functionality of shrun.
 
-If you're interested in looking at the default shrun docker file, [it's available here](https://github.com/rylandg/shrun/blob/master/docker_files/Dockerfile). Feel free to copy it locally and modify it to fit your needs.
+If you're interested in looking at the default shrun docker files, [they are available here](https://github.com/rylandg/shrun/blob/master/docker_files). Feel free to copy it locally and modify it to fit your needs.
 
 ### More about shrun
 
