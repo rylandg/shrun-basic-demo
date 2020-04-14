@@ -3035,10 +3035,10 @@ shellwords@^0.1.1:
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
 
-shrun@^0.0.56:
-  version "0.0.56"
-  resolved "https://registry.yarnpkg.com/shrun/-/shrun-0.0.56.tgz#dae58bd0fc25d169fe5349cc25d7ac670bd98f36"
-  integrity sha512-as7JUPBcHHYJhRc3Wm7w266wk/1bpdlNvid2YBweGARrdq6N9XZum6pw2x7A4qAkcKsunCRSWuO86x1U0SWfmQ==
+shrun@^0.0.58:
+  version "0.0.58"
+  resolved "https://registry.yarnpkg.com/shrun/-/shrun-0.0.58.tgz#83ccc3bb67d2fc0c4b36660289e8a368984a6117"
+  integrity sha512-fgHQJmoQqLa3B8ZMxs/a1OfXhfx97hSeChAzet5SQRDfzs2DTGZMufJlEnRrvR3N6h/NbLaTqVllbD9u3MKtyA==
   dependencies:
     "@types/dockerode" "^2.5.24"
     "@types/escape-string-regexp" "^2.0.1"

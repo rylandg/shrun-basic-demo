@@ -35,6 +35,12 @@ sudo npm run build
 
 This will create a docker image that contains the basic `testshrun` command line tool.
 
+If you're interested in using alpine instead of ubuntu, run:
+
+```bash
+sudo npm run build-alpine
+```
+
 **run shrun**
 
 ```bash

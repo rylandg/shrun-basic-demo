@@ -1,6 +1,6 @@
 {
   "name": "shrun-tester",
-  "version": "0.0.56",
+  "version": "0.0.58",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "shrun build testshrun",
+    "build-alpine": "shrun build testshrun --image alpine",
     "spec": "shrun --volume $(pwd)/LICENSE:/home/dockeruser/LICENSE --testMatch 'specs' --dockerImage 'testshrun:latest'"
   },
   "keywords": [],
@@ -16,6 +17,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "shrun": "^0.0.56"
+    "shrun": "^0.0.58"
   }
 }
